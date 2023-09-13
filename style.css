@@ -97,6 +97,32 @@ main {
     background-color: #919191;
 }
 
+#contact {
+    align-items: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 24px;
+    }
+
+    .contact-container h3 {
+        font-size: 24px;
+    }
+
+form input,
+form textarea,
+form button {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 24px;
+    width: 600px;
+}
+
 footer{
     height: 100px;
     display: flex;
